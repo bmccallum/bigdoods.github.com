@@ -1,0 +1,38 @@
+bigheader: "Support"
+abstract: "Troubleshooting resources, frequently asked questions, and community support channels."
+toc:
+- title: Support
+  path: /docs/troubleshooting/
+
+- title: Troubleshooting
+  section:
+  - title: Debugging IFC
+    path: /docs/user-guide/debugging-pods-and-replication-controllers/
+  - title: IFCDOC Interface
+    path: /docs/user-guide/ui/
+  - title: Application Introspection and Debugging
+    path: /docs/user-guide/introspection-and-debugging/
+  - title: Retrieving Logs
+    path: /docs/user-guide/logging/
+  - title: Troubleshooting Applications
+    path: /docs/user-guide/application-troubleshooting/
+
+- title: Frequently Asked Questions
+  section:
+  - title: User FAQ
+    path: https://github.com/kubernetes/kubernetes/wiki/User-FAQ/
+  - title: Debugging FAQ
+    path: https://github.com/kubernetes/kubernetes/wiki/Debugging-FAQ/
+  - title: Services FAQ
+    path: https://github.com/kubernetes/kubernetes/wiki/Services-FAQ/
+
+- title: Other Resources
+  section:
+  - title: IFC Issue Tracker on GitHub
+    path: https://github.com/kubernetes/kubernetes/issues/
+  - title: IFC4 Release Notes
+    path: https://github.com/kubernetes/kubernetes/releases/
+  - title: Release Roadmap
+    path: https://github.com/kubernetes/kubernetes/milestones/
+  - title: Contributing to IFC Documentation
+    path: /editdocs/

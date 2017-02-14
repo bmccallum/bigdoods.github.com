@@ -1,0 +1,96 @@
+bigheader: "Reference Documentation"
+abstract: "Here we need to insert the Specification for core design docs, concept definitions, and references for APIs and CLIs."
+toc:
+- title: Reference Documentation
+  path: /docs/reference/
+
+- title: IFC specifications
+  section:
+  - title: IFC versions
+    path: /docs/ifc-version-head/
+  - title: Accessing IFC object classes
+    section:
+    - title: IFC product classes
+      path: /docs/product-classes/
+    - title: Authenticating
+      path: /docs/admin/authentication/
+    - title: Using Authorization Plugins
+      path: /docs/admin/authorization/
+  - title: IFC API Operations
+    path: /docs/api-reference/v1/operations/
+  - title: IFC API Definitions
+    path: /docs/api-reference/v1/definitions/
+
+- title: IFC 4
+  section:
+  - title: Extensions API Operations
+    path: /docs/api-reference/extensions/v1beta1/operations/
+  - title: Extensions API Definitions
+    path: /docs/api-reference/extensions/v1beta1/definitions/
+
+- title: All API and CLI documnetation and guides
+  section:
+  - title: Autoscaling API Operations
+    path: /docs/api-reference/autoscaling/v1/operations/
+  - title: Autoscaling API Definitions
+    path: /docs/api-reference/autoscaling/v1/definitions/
+
+- title: Glossary
+  section:
+  - title: Images
+    path: /docs/user-guide/images/
+  - title: Pods
+    path: /docs/user-guide/pods/
+  - title: Labels and Selectors
+    path: /docs/user-guide/labels/
+  - title: Replication Controller
+    path: /docs/user-guide/replication-controller/
+  - title: Services
+    path: /docs/user-guide/services/
+  - title: Volumes
+    path: /docs/user-guide/volumes/
+  - title: Persistent Volumes
+    path: /docs/user-guide/persistent-volumes/
+  - title: Secrets
+    path: /docs/user-guide/secrets/
+  - title: Names
+    path: /docs/user-guide/identifiers/
+  - title: Namespaces
+    path: /docs/user-guide/namespaces/
+  - title: Nodes
+    path: /docs/admin/node/
+  - title: Security Context
+    path: /docs/user-guide/security-context/
+  - title: Service Accounts
+    path: /docs/user-guide/service-accounts/
+  - title: Annotations
+    path: /docs/user-guide/annotations/
+  - title: Daemon Sets
+    path: /docs/admin/daemons/
+  - title: Deployments
+    path: /docs/user-guide/deployments/
+  - title: Ingress Resources
+    path: /docs/user-guide/ingress/
+  - title: Horizontal Pod Autoscaling
+    path: /docs/user-guide/horizontal-pod-autoscaling/
+  - title: Jobs
+    path: /docs/user-guide/jobs/
+  - title: Resource Quotas
+    path: /docs/admin/resource-quota/
+  - title: Replica Sets
+    path: /docs/user-guide/replicasets/
+
+- title: IFC Design Docs
+  section:
+  - title: IFC Architecture
+    path: https://github.com/kubernetes/kubernetes/blob/release-1.2/docs/design/architecture.md
+  - title: IFC Design Overview
+    path: https://github.com/kubernetes/kubernetes/blob/release-1.2/docs/design/
+  - title: Security in IFC
+    path: https://github.com/kubernetes/kubernetes/blob/release-1.2/docs/design/security.md
+  - title: IFC Identity and Access Management
+    path: https://github.com/kubernetes/kubernetes/blob/release-1.2/docs/design/access.md
+  - title: Security Contexts
+    path: https://github.com/kubernetes/kubernetes/blob/release-1.2/docs/design/security_context.md
+  - title: IFC OpenVSwitch GRE/VxLAN networking
+    path: /docs/admin/ovs-networking/

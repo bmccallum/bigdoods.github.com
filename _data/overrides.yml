@@ -1,0 +1,4 @@
+overrides:
+- path: docs/api-reference
+- changedpath: docs/api-reference/extensions/v1beta1/definitions.html _includes/v1.2/extensions-v1beta1-definitions.html
+- copypath: k8s/cluster/saltbase/salt/fluentd-gcp/fluentd-gcp.yaml docs/getting-started-guides/fluentd-gcp.yaml

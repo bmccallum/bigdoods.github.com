@@ -1,0 +1,133 @@
+bigheader: "Overview"
+abstract: "Project overview "
+toc:
+- title: Overview
+  path: /docs/overview/
+
+- title: Concepts
+  section:
+  - title: Data-model
+    section:
+    - title: STEP
+      path: /docs/user-guide/simple-yaml/
+    - title: Formats of exhange
+      path: /docs/user-guide/simple-yaml/
+    - title: Categories of objects
+      path: /docs/user-guide/simple-yaml/
+    - title: Unique identifier (GUID)
+      path: /docs/user-guide/simple-yaml/
+    - title: Types of objects
+      path: /docs/user-guide/simple-yaml/
+    - title: Systems
+      path: /docs/user-guide/simple-yaml/
+    - title: Object Properties
+      path: /docs/user-guide/simple-yaml/
+    - title: Work Units
+      path: /docs/user-guide/simple-yaml/
+    - title: Interfaces
+      path: /docs/user-guide/simple-yaml/
+    - title: Development levels
+      path: /docs/user-guide/simple-yaml/
+    - title: Sources
+      path: /docs/user-guide/simple-yaml/
+
+- title: Schema extensions
+  section:
+  - title: IFC web ontology
+    section:
+    - title: Project Entry point
+      path: /docs/user-guide/simple-yaml/
+    - title: Getting started
+      path: /docs/user-guide/simple-yaml/
+    - title: Reference applications
+      section:
+      -  title: Hello World
+         path: lol
+      -  title: Other sample
+         path: lol
+    - title: Specification
+      path: /docs/user-guide/specification/
+    - title: Case studies
+      path: /docs/user-guide/simple-yaml/
+    - title: Community
+      path: /docs/user-guide/simple-yaml/
+    - title: Tools
+      section:
+        - title: Express to OWL
+          section:
+           - title: Java example
+             path: /docs/user-guide/expressToOwl/
+           - title: Javascript example
+             path: /docs/user-guide/expressToOwl/
+           - title: IFCdoc tool example
+             path: /docs/user-guide/expressToOwl/
+        - title: Express to RDF
+          section:
+            - title: Java example
+              path: /docs/user-guide/expressToOwl/
+            - title: Javascript example
+              path: /docs/user-guide/expressToOwl/
+
+  - title: BIM Collaboration Format
+    section:
+      - title: Entry point
+        path: /docs/user-guide/simple-yaml/
+      - title: Getting started
+        path: /docs/user-guide/simple-yaml/
+      - title: Specification
+        path: /docs/user-guide/specification/
+      - title: Case studies
+        path: /docs/user-guide/simple-yaml/
+      - title: Community
+        path: /docs/user-guide/simple-yaml/
+      - title: Tools
+        section:
+          - title: Express to OWL
+            section:
+             - title: Java example
+               path: /docs/user-guide/expressToOwl/
+             - title: Javascript example
+               path: /docs/user-guide/expressToOwl/
+             - title: IFCdoc tool example
+               path: /docs/user-guide/expressToOwl/
+          - title: Express to RDF
+            section:
+              - title: Java example
+                path: /docs/user-guide/expressToOwl/
+              - title: Javascript example
+                path: /docs/user-guide/expressToOwl/
+
+
+  - title: Model View Definition
+    section:
+      - title: Model View Definition XML
+        path: /docs/user-guide/simple-yaml/
+      - title: Getting started
+        path: /docs/user-guide/simple-yaml/
+      - title: Specification
+        path: /docs/user-guide/specification/
+      - title: Case studies
+        path: /docs/user-guide/simple-yaml/
+      - title: Community
+        path: /docs/user-guide/simple-yaml/
+      - title: Tools
+        section:
+          - title: Express to OWL
+            section:
+             - title: Java example
+               path: /docs/user-guide/expressToOwl/
+             - title: Javascript example
+               path: /docs/user-guide/expressToOwl/
+             - title: IFCdoc tool example
+               path: /docs/user-guide/expressToOwl/
+          - title: Express to RDF
+            section:
+              - title: Java example
+                path: /docs/user-guide/expressToOwl/
+              - title: Javascript example
+                path: /docs/user-guide/expressToOwl/
+
+- title: Other Resources
+  section:
+  - title: list of resources
+    path: /docs/resources-link/

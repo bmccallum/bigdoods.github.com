@@ -1,0 +1,52 @@
+- version: IFC5
+  date: (In Development)
+  url_doc:
+
+- version: IFC4-Add2
+  date: July 2016
+  url_doc: http://www.buildingsmart-tech.org/ifc/IFC4/Add2/html/
+  actuelle: Yes
+
+- version: IFC4-Add1
+  date: July 2015
+  url_doc: http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/
+
+- version: IFC4 (anciennement 2x4)
+  date: March 2013
+  url_doc: http://www.buildingsmart-tech.org/ifc/IFC4/final/html/index.htm
+
+- version: IFC2x3-TC1
+  date: July 2007
+  url_doc: http://www.buildingsmart-tech.org/ifc/IFC2x3/TC1/html/index.htm
+
+- version: IFC2x3
+  date: February 2006
+  url_doc:
+
+- version: IFC2x2-Add1
+  date: July 2004
+  url_doc:
+
+- version: IFC2x2
+  date: May 2003
+  url_doc:
+
+- version: IFC2x-Add1
+  date: October 2001
+  url_doc:
+
+- version: IFC2x
+  date: October 2000
+  url_doc:
+
+- version: IFC2.0
+  date: 1999
+  url_doc:
+
+- version: IFC1.5
+  date: 1998
+  url_doc:
+
+- version: IFC1.0
+  date: 1997
+  url_doc:

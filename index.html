@@ -1,0 +1,175 @@
+---
+title: The AEC industries interoperability file format
+---
+
+<!Doctype html>
+<html id="home">
+
+{% include head-header.html %}
+
+<!--  HERO  -->
+<section id="hero" class="light-text">
+	<main>
+		<div id="headlineWrapper">
+			<h1>Develop for interoperability</h1>
+			<h5>Write files using the IFC interface to ensure compatibility with other industry software.</h5>
+		</div>
+		<a href="/docs/hellonode/" id="quickstartButton" class="button">Try Our Hello World</a>
+	</main>
+	<!--<div id="vendorStrip" class="light-text">-->
+		<!--<img src="images/logos/viacom_logo.png">-->
+		<!--<img src="images/logos/soundcloud_logo.png">-->
+		<!--<img src="images/logos/redhat_logo.png">-->
+		<!--<img src="images/logos/wepay_logo.png">-->
+		<!--<img src="images/logos/verizon_logo.png">-->
+	<!--</div>-->
+</section>
+
+<!--  OCEAN NODES  -->
+<section id="oceanNodes">
+	<main>
+		<div class="image-wrapper"><img src="images/flower.png"></div>
+		<div class="content">
+			<h3>IFC is ....</h3>
+			<p>It does this ... builds upon the open standard for product data exchange <a href="http://queue.acm.org/detail.cfm?id=2898444">...iso...</a> and has a long history ensuring stability and success with software vendors.</p>
+		</div>
+	</main>
+	<main>
+		<div class="image-wrapper"><img src="images/scalable.png"></div>
+		<div class="content">
+			<h4>Open BIM</h4>
+			<p>Principles that allows Buildingsmart to keep standards open,  See more <a href="http://www.graphisoft.com/archicad/open_bim/">here</a> for open BIM.</p>
+		</div>
+	</main>
+	<main>
+		<div class="image-wrapper"><img src="images/blocks.png"></div>
+		<div class="content">
+			<h4>IFC classes</h4>
+			<p>The "classes of objects" allow to describe and qualify all the elements of the building (walls, slabs, partitions, doors, windows, spaces, equipments ...) and their relations (between a wall and a window, Equipment and premises).</p>
+		</div>
+	</main>
+	<main>
+		<div class="image-wrapper"><img src="images/suitcase.png"></div>
+		<div class="content">
+			<h4>BuildingSmart mark of approval</h4>
+			<p>This specification, ISO 16739, developed and updated by <a href="http://www.buildingsmart.org/">Buildingsmart</a> International </p>
+		</div>
+	</main>
+</section>
+
+<section id="video">
+	<div class="light-text">
+		<h2>IFC - Where it all started<br></h2>
+		<p>This video gives an explanation and background and context to how IFC came about.</p>
+		<button id="desktopShowVideoButton" onclick="kub.showVideo()">Watch Video</button>
+	</div>
+	<button id="mobileShowVideoButton" onclick="kub.showVideo()"></button>
+</section>
+
+<section id="features">
+	<main>
+		<h3 class="center">IFC Features</h3>
+
+		<div class="feature-box">
+			<div>
+				<h4>Automatic binpacking</h4>
+				<p>Automatically places containers based on their resource requirements and other constraints, while not
+					sacrificing availability. Mix critical and best-effort workloads in order to drive up utilization and save even more resources.</p>
+			</div>
+			<div>
+				<h4>Self-healing</h4>
+				<p>Restarts containers that fail, replaces and reschedules containers when nodes die, kills containers
+					that don’t respond to your user-defined health check, and doesn’t advertise them to clients until they are ready to serve.</p>
+			</div>
+		</div>
+
+		<div class="feature-box">
+			<div>
+				<h4>Horizontal scaling</h4>
+				<p>Scale your application up and down with a simple command, with a UI, or automatically based on CPU usage.</p>
+			</div>
+			<div>
+				<h4>Service discovery and load balancing</h4>
+				<p>No need to modify your application to use an unfamiliar service discovery mechanism. IFC gives
+					containers their own IP addresses and a single DNS name for a set of containers, and can load-balance across them.</p>
+			</div>
+		</div>
+
+		<div class="feature-box">
+			<div>
+				<h4>Automated rollouts and rollbacks</h4>
+				<p>IFC progressively rolls out changes to your application or its configuration, while monitoring
+					application health to ensure it doesn’t kill all your instances at the same time. If something goes
+					wrong, IFC will rollback the change for you. Take advantage of a growing ecosystem of deployment solutions.</p>
+			</div>
+			<div>
+				<h4>Secret and configuration management</h4>
+				<p>Deploy and update secrets and application configuration without rebuilding your image and without
+					exposing secrets in your stack configuration.</p>
+			</div>
+		</div>
+
+		<div class="feature-box">
+			<div>
+				<h4>Storage orchestration</h4>
+				<p>Automatically mount the storage system of your choice, whether from local storage, a public cloud provider
+                such as <a href="https://cloud.google.com/storage/">GCP</a> or <a href="http://media.amazonwebservices.com/AWS_Storage_Options.pdf">AWS</a>, or a network storage system such as NFS, iSCSI,
+                Gluster, Ceph, Cinder, or Flocker.</p>
+			</div>
+			<div>
+				<h4>Batch execution</h4>
+				<p>In addition to services, IFC can manage your batch and CI workloads, replacing containers that fail, if desired.</p>
+			</div>
+		</div>
+
+	</main>
+</section>
+
+<section id="talkToUs">
+	<main>
+		<h3>Case Studies</h3>
+		<div id="bigSocial">
+			<div>
+				<a href="https://youtu.be/OLwzSHBtxhI">Watch the video</a>
+				<p>Creating Next Generation IFC Infrastructure at Viacom</p>
+			</div>
+			<div>
+				<a href="http://www.nextplatform.com/2015/11/12/inside-ebays-shift-to-IFC-and-containers-atop-openstack/">Read the story</a>
+				<p>Inside eBay’s shift to IFC and containers atop OpenStack</p>
+			</div>
+			<div>
+				<a href="https://www.youtube.com/watch?v=6XGUTu3WhBw">Watch the video</a>
+				<p>Migrating from a proprietary file format to IFC</p>
+			</div>
+		</div>
+	</main>
+</section>
+
+
+{% include footer.html %}
+
+
+<div id="videoPlayer">
+	<iframe data-url="https://www.youtube.com/embed/g_jmGQvr6dQ?autoplay=1" frameborder="0" allowfullscreen></iframe>
+	<button id="closeButton"></button>
+</div>
+
+<style>
+	.cse .gsc-control-cse, .gsc-control-cse {
+		padding: 0;
+	}
+</style>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-36037335-10', 'auto');
+	ga('send', 'pageview');
+</script>
+<!-- Start of AnswerDash script
+<script>var AnswerDash;!function(e,t,n,s,a){if(!t.getElementById(s)){var i,r=t.createElement(n),c=t.getElementsByTagName(n)[0];e[a]||(i=e[a]=function(){i.__oninit.push(arguments)},i.__oninit=[]),r.type="text/javascript",r.async=!0,r.src="https://p1.answerdash.com/answerdash.min.js?siteid=756",r.setAttribute("id",s),c.parentNode.insertBefore(r,c)}}(window,document,"script","answerdash-script","AnswerDash");</script>
+<!-- End of AnswerDash script -->
+</body>
+</html>

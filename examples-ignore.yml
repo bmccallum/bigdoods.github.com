@@ -1,0 +1,31 @@
+1 STEP
+__________________
+
+- title: Concepts
+  section:
+  - title: Data-model
+    path: /docs/data-model/
+
+2 STEP
+__________________
+
+- title: General principles
+  section:
+  - title: IFC web ontology
+    section:
+    - title: Project Entry point
+      path: /docs/user-guide/simple-yaml/
+
+3 STEP
+__________________
+
+- title: General principles
+  section:
+  - title: IFC web ontology
+    section:
+    - title: Project Entry point
+      path: /docs/user-guide/simple-yaml/
+    - title: Reference applications
+      section:
+      -  title: Hello World
+         path: lol
