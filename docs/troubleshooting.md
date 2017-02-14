@@ -44,7 +44,7 @@ The user group and forum is based on [mobilize here](https://buildingsmartapi.mo
 
 ### Bugs and Feature requests
 
-If you have what looks like a bug, or you would like to make a feature request, please use the [Github issue tracking system](https://github.com/buidingsmart/IFC).
+If you have what looks like a bug, or you would like to make a feature request, please use the [Github issue tracking system](https://github.com/buildingsmart/IFC).
 
 Before you file an issue, please search existing issues to see if your issue is already covered.
 
