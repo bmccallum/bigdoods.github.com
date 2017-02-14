@@ -1,11 +1,11 @@
-name: Buildingsmart-tech
+name: IFC
 markdown: kramdown
 kramdown:
   input: GFM
   html_to_native: true
   hard_wrap: false
   syntax_highlighter: rouge
-baseurl: /
+baseurl: /IFC
 incremental: true
 
 safe: false
