@@ -2,11 +2,11 @@
 title: IFC Documentation
 ---
 
-<p>IFC documentation can help you set up IFC, learn about the file format, or get your applications and workloads exchanging data through the IFC interfaces. To learn the basics of what IFC is and how it works, read "<a href="/docs/whatisk8s/">What is IFC</a>". </p>
+<p>IFC documentation can help you get set up to use IFC, learn about the file format, or get your applications and workloads exchanging data through the IFC interfaces. To learn the basics of what IFC is and how it works, read "<a href="/docs/whatisIFC/">What is IFC</a>".</p>
 
 <h2>Interactive Tutorial</h2>
 
-<p>The <a href="/docs/tutorials/kubernetes-basics/">IFC Basics interactive tutorial</a> lets you try out IFC, using some tools developed by the community. Learn about the IFC system and begin in just a few minutes.</p>
+<p>The <a href="/docs/tutorials/IFC-basics/">IFC Basics interactive tutorial</a> lets you try out IFC, using some tools developed by the community. Learn about the IFC system and begin in just a few minutes.</p>
 
 <h2>Installing/Setting Up IFC</h2>
 
