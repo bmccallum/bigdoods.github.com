@@ -22,7 +22,7 @@ title: IFC Documentation
 
 <p>The IFC documentation contains a number of resources to help you understand and work with IFC.</p>
 <ul>
-<li><b><a href="/docs/user-guide/">Guides</a></b> provides documentation for Kubernetes features as well as administering and spinning up clusters, including usage examples.</li>
+<li><b><a href="/docs/user-guide/expressToOwl">Guides</a></b> provides documentation for Kubernetes features as well as administering and spinning up clusters, including usage examples.</li>
 <li><b><a href="/docs/tutorials/">Tutorials</a></b> contain detailed walkthroughs of the IFC workflow.</li>
 <li><b><a href="/docs/tasks/">Tasks</a></b> contain step-by-step instructions for common IFC tasks.</li>
 <li><b><a href="/docs/concepts/">Concepts</a></b> provide a deep understanding of how IFC works.</li>
