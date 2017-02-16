@@ -197,7 +197,7 @@ var kub = (function () {
 	}
 
 	function submitWish(textfield) {
-		window.location.replace("https://github.com/buildingsmart/IFC/issues/new?title=I%20wish%20" +
+		window.location.replace("https://github.com/bigdoods/bigdoods.github.com/issues/new?title=I%20wish%20" +
 			window.location.pathname + "%20" + textfield.value + "&body=I%20wish%20" +
 			window.location.pathname + "%20" + textfield.value);
 
