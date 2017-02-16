@@ -93,18 +93,18 @@ var kub = (function () {
 	});
 
 	var anchorTopMargin = 90;
-	
+
 	function initAnchorScrolling() {
 		anchorTopMargin = HEADER_HEIGHT + 10;
-		
+
 		$('a[href*="#"]').each(function() {
 			if (this.href.indexOf("!") != -1) return;
-				
+
 			var url = $(this).attr('href').replace(/\/$/, "");
 			var name = (url.indexOf("#") !== -1) ? url.substring(url.indexOf("#")+1): url.match(/([^\/]*)\/*$/)[1];
-			
+
 			if (name.indexOf("/") != -1) return;
-			
+
 			if(typeof($("a[name='"+name+"']").offset()) !== "undefined" || $('#'+name).length) {
 				$(this).click(function(e) {
 					e.preventDefault();
@@ -113,7 +113,7 @@ var kub = (function () {
 			}
 		});
 	}
-	
+
 	function scrollToAnchor(name) {
 		var elem = (!$('#'+name).length) ? $("a[name='"+ name +"']"): $('#'+name);
 		if(typeof(elem.offset()) !== "undefined") {
@@ -129,7 +129,7 @@ var kub = (function () {
 			});
 		}
 	}
-	
+
 
 	function setFooterType() {
 		var windowHeight = window.innerHeight;
@@ -197,7 +197,7 @@ var kub = (function () {
 	}
 
 	function submitWish(textfield) {
-		window.location.replace("https://github.com/kubernetes/kubernetes.github.io/issues/new?title=I%20wish%20" +
+		window.location.replace("https://github.com/buildingsmart/IFC/issues/new?title=I%20wish%20" +
 			window.location.pathname + "%20" + textfield.value + "&body=I%20wish%20" +
 			window.location.pathname + "%20" + textfield.value);
 
